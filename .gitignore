@@ -218,8 +218,11 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Data files (trop lourds pour GitHub)
-data/*.csv
+data/creditcard.csv
 data/*.zip
+
+# On garde le sample (petit fichier < 5MB)
+# data/creditcard_sample.csv  ← on autorise celui-ci
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
