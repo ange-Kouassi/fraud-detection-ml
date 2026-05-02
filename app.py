@@ -37,7 +37,13 @@ st.markdown("---")
 # ============================================
 @st.cache_data
 def charger_donnees():
-    df = pd.read_csv('data/creditcard.csv')
+    import os
+    # Utilise le fichier complet en local
+    if os.path.exists('data/creditcard.csv'):
+        df = pd.read_csv('data/creditcard.csv')
+    # Utilise l'échantillon sur Streamlit Cloud
+    else:
+        df = pd.read_csv('data/creditcard_sample.csv')
     df['Hour']       = (df['Time'] / 3600) % 24
     df['Amount_Log'] = np.log1p(df['Amount'])
     return df
