@@ -93,7 +93,9 @@ jupyter notebook
 **Ange Emmanuel Zaibaihi KOUASSI** — Étudiant Master 1 Data Science / IA  
 📧 zaibaihi@gmail.com  
 
+## 🌐 Dashboard Live
 
+👉 **[Voir le dashboard en ligne](https://fraud-detection-ml-bt478ljuqk2n6ygpsnyuek.streamlit.app/)**
 
 > ⚠️ Le fichier CSV n'est pas inclus dans ce repo (trop volumineux).
 
